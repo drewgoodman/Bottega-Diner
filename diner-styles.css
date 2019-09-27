@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr 3fr;
     align-items: center;
-    height: 85vh;
+    height: 80vh;
 }
 
 .intro-screen-wrapper {
@@ -46,6 +46,7 @@
 .message-box-style {
     padding: 1.3vw;
     font-size: .9vw;
+    white-space: pre-line;
 }
 
 
@@ -242,4 +243,13 @@
 
 .toggle-visible {
     display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: .9vw;
+    padding-right: 2vw;
 }

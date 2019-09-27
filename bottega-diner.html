@@ -21,8 +21,8 @@
                 <h1>Bottega Diner</h1>
             </div>
             <div class="feedback-column-wrapper">
-                <div class="intro-menu message-box-style">
-                        Welcome to Bottega diner! It will be just a moment before we can seat you - figuratively speaking anyway. Already know which menu you'd like to look at?
+                <div class="main-message-box message-box-style">
+                        <span id="server-chat-box">Welcome to Bottega diner! It will be just a moment before we can seat you - figuratively speaking anyway. Already know which menu you'd like to look at?</span>
                 </div>
                 <div class="intro-menu btn-breakfast-menu time-choice" onclick="setMenuCategory('breakfast')">
                     Breakfast
@@ -33,13 +33,12 @@
                 <div class="intro-menu btn-dinner-menu time-choice" onclick="setMenuCategory('dinner')">
                     Dinner
                 </div>
-                <div class="main-message-box message-box-style toggle-visible" id="server-chat-box">This is text.</div>
             </div>
         </div>
         <div class="menu-display-container">
             <div id="menu-display" class="toggle-visible">
                 <div class="menu-header" id="header-specials">
-                    <h2>specials("Lunch");</h2>
+                    <!-- <h2>specials("Lunch");</h2> -->
                 </div>
                 <div class="menu-list" id="list-specials"></div>
                 <div class="menu-header" id="header-sides">
@@ -68,6 +67,7 @@
             </div>
         </div>
     </div>
+    <footer class="main-footer active-element"><span class="copyright">&copy; Drew Goodman 2019</span></footer>
 </body>
 
 <script>
