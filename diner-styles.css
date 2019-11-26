@@ -32,16 +32,21 @@
 }
 
 .diner-header {
-    padding: 2vw;
+    padding: 1vw;
+    margin-top: 1vw;
     width: 19vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.diner-header img {
+.diner-header-img {
     width: 13vw;
-    height: 100%;
+    height: 13vw;
+    background: url("images/icon-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .diner-header h1 {
