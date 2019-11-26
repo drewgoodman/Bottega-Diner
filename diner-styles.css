@@ -41,8 +41,8 @@
 }
 
 .diner-header-img {
-    width: 13vw;
-    height: 13vw;
+    width: 14vw;
+    height: 14vw;
     background: url("images/icon-2.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +52,7 @@
 .diner-header h1 {
     font-family: 'Cherry Cream Soda', cursive;
     color: white;
-    font-size: 4.5vw;
+    font-size: 4.3vw;
     margin: 0;
     text-align: center;
 }
@@ -66,7 +66,7 @@
 
 .time-choice {
     background-color: black;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     text-align:center;
     padding-top: .5vw;
     padding-bottom: .5vw;
